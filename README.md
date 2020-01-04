@@ -7,5 +7,6 @@ EX4: Operator
 EX5: Logical
 EX6: Loop
 EX7: Control Statement
+EX8: Array
 ```
 ##SunvoDz##
