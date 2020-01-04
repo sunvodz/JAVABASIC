@@ -8,5 +8,6 @@ EX5: Logical
 EX6: Loop
 EX7: Control Statement
 EX8: Array
+EX9: oddเลขคี่ and evenเลขคู่ , number 1256 => 125 , number 1256 => 6
 ```
 ##SunvoDz##
