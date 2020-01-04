@@ -11,5 +11,6 @@ EX8: Array
 EX9: oddเลขคี่ and evenเลขคู่ , number 1256 => 125 , number 1256 => 6
 Ex10: Max , Min , Average
 Ex11: Reversed , Palindrome
+Ex12: Split , To Lower Case , Cover to Integer
 ```
 ##SunvoDz##
