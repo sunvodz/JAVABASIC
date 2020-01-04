@@ -12,5 +12,6 @@ EX9: oddเลขคี่ and evenเลขคู่ , number 1256 => 125 , num
 Ex10: Max , Min , Average
 Ex11: Reversed , Palindrome
 Ex12: Split , To Lower Case , Cover to Integer
+Ex13: Strint => (Equal , Length , First , Last , English vowel)
 ```
 ##SunvoDz##
