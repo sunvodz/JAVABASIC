@@ -1,29 +1,63 @@
-import java.util.Scanner;                       
+import java.util.Scanner;
+import java.util.Arrays;
+import java.util.Collections;
+class Ex10{
+      public static void main(String[] args){
+            Scanner input = new Scanner(System.in);
+            int num;
+            int i = 0;
+            int [] number = new int [5];
+            System.out.print("Enter 5 number : ");
+            num = input.nextInt();
 
-public class Ex10 {
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int [] num = new int[10];
-        for(int i=0;i<10;++i)
-              num[i] = in.nextInt();           
-        min(num);
-        max(num);                       
-  }
-       public static void min(int a[]) {             
-             int min = a[0];                            
-             for(int i=0;i<10;++i) {
-                   if(min>a[i])                      
-                         min=a[i];                     
-              }
-             System.out.println("Min : "+min);
-        }
+            while(num > 0){
+                  number[i] = num % 10;
+                  i++;
+                  num = num / 10;
+            }
 
-       public static void max(int b[]) {
-             int max = b[0];                  
-             for(int i=0;i<10;++i) {
-                   if(max<b[i])                
-                   max=b[i];
-              }
-              System.out.println("Max : "+max);
+            Arrays.sort(number);
+            int max = number[number.length-1]; 
+            int min = number[0]; 
+            
+            // System.out.println("Max : " + max(number));
+            // System.out.println("Min : " + min(number));
+
+            System.out.println("Max : " + max);
+            System.out.println("Min : " + min);
+            System.out.println("Average : " + ave(number));
+            
+      }
+      public static int max(int[] num){
+            int i ;
+            int max = num [0];
+            for( i = 0 ; i < num.length ; i++){
+                if(num[i] > max){
+                  max = num[i];
+                }
+            }
+            return max;
+      }
+
+      public static int min(int[] num){
+        int i ;
+        int min = num [0];
+        for( i = 0 ; i < num.length ; i++){
+            if(num[i] < min){
+              min = num[i];
+            }
         }
+        return min;
+      }
+      public static float ave(int[] num){
+            int i;
+            int sum = 0;
+            float ave = 0f;
+            for( i = 0 ; i < num.length ; i++){
+                  sum =+ num[i];
+            }
+            ave = sum / 2;
+            return ave;
+      }
+    
 }
