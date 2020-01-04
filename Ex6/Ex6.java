@@ -8,5 +8,16 @@ class Ex6{
         for(int i=1 ; i<=12 ; i++){
             System.out.println(number + " X " + i + " = "+ number*i);
         }
+
+        // int i = 1; 
+        // do{
+        //     System.out.println(number + " X " + i + " = "+ number*i);
+        //     i++;
+        // }while(i <= 12 );
+
+
+
+        System.out.print("complete !");
+        
     }
 }
