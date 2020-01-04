@@ -12,7 +12,7 @@ class Ex5{
         System.out.println(num_a + " And " + num_b);
 
         // == , != , < , > , <= , >=
-        //&& (T&&T = T), || (F||F=F), ! (T = F , F = T) 
+        //&& (T&&T = T), || (F||F=F), ^ (T^F=T) (F^T=T) , ! (T = F , F = T)
 
         boolean result = (num_a != num_b) && (num_a < num_b);
         
